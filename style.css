@@ -25,7 +25,11 @@
     flex:1;
 }
 .header-name {
-    flex:2
+    flex:2;
+    text-align: left;
+}
+.header-placeholder {
+    flex:6;
 }
 
 .content-container {
@@ -58,15 +62,17 @@
 }
 
 .hamburger-menu {
-    display: none; /*
+    display: none;
 }
 
 @media (max-width: 768px) {
     /* Hide the sidebar on smaller screens */
-    .sidebar {
+    .sidebar{
         display: none;
     }
-
+    .header-placeholder{
+        display: none;
+    }
     /* Styles for the hamburger menu (you can customize this) */
     /* Example styles for a simple hamburger icon */
     .hamburger-menu {
