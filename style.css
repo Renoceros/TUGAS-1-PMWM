@@ -10,6 +10,15 @@
     box-sizing: border-box;
     overflow: auto; /* or auto */
 }
+a {
+    text-decoration:none
+}
+a:link {
+    color: black;
+  }
+a:visited {
+    color: black;
+  }
 
 .header-container {
     background-color: #761818; /* Dark background color */
@@ -65,6 +74,16 @@
     min-width: 200px;
     overflow-x: hidden;
     overflow-y: auto;
+    text-align: center;
+}
+.product-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.read-more{
+    background-color: #fcbaba;
+
 }
 
 .footer {
