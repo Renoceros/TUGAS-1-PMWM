@@ -48,7 +48,7 @@
 
 /* Main content styles */
 .main {
-    flex: 4; /* Take up 80% of the available space */
+    flex: 5; /* Take up 80% of the available space */
     background-color: #fff; /* White background color */
     color: #333; /* Dark gray font color */
     padding: 20px; /* Add padding for content within the main section */
