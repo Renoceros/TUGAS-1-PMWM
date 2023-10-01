@@ -39,7 +39,6 @@
     flex-direction: row; 
 }
 
-/* Sidebar styles */
 .sidebar {
     flex: 1;
     background-color: #f4f4f4; 
@@ -48,7 +47,6 @@
     text-align: center;
 }
 
-/* Main content styles */
 .main {
     flex: 5; /* Take up 80% of the available space */
     background-color: #fff; /* White background color */
@@ -64,19 +62,16 @@
     padding: 20px;
     border: 1px solid #fcbaba;
     box-shadow: #444;
-
+    min-width: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
-/* Footer styles */
 .footer {
     background-color: #444; /* Darker background color */
     color: #fff; /* White font color */
     text-align: center;
     padding: 10px; /* Add padding for content within the footer */
-}
-
-.product-item {
-    grid-template-columns: repeat(2, 1fr);
 }
 
 .hamburger-menu {
@@ -87,6 +82,9 @@
     /* Hide the sidebar on smaller screens */
     .sidebar{
         display: none;
+    }
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
     }
     .header-placeholder{
         display: none;
