@@ -62,10 +62,25 @@ a:visited {
     color: #333; /* Dark gray font color */
     padding: 20px; /* Add padding for content within the main section */
 }
+.main-img{
+    max-width: 1194px;
+}
 .product-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+.table-anggota{
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+.table-anggota-td{
+    padding: 10px; /* Add padding to create space within cells */
+    border: 0px;
+    vertical-align: top;
+}
+.img-anggota{
+    width: 200px;
 }
 .product-item {
     padding: 20px;
