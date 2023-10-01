@@ -1,0 +1,19 @@
+/* style.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 20px; /* Gap between grid items */
+}
+
+.grid-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    /* Responsive layout for smaller screens */
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+}
