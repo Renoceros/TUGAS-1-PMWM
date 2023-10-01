@@ -55,6 +55,17 @@
     color: #333; /* Dark gray font color */
     padding: 20px; /* Add padding for content within the main section */
 }
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product-item {
+    padding: 20px;
+    border: 1px solid #fcbaba;
+    box-shadow: #444;
+
+}
 
 /* Footer styles */
 .footer {
@@ -62,6 +73,10 @@
     color: #fff; /* White font color */
     text-align: center;
     padding: 10px; /* Add padding for content within the footer */
+}
+
+.product-item {
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .hamburger-menu {
