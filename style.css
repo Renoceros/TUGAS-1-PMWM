@@ -36,6 +36,7 @@
 .content-container {
     display: flex; /* Use flexbox for layout */
     min-height: 700px;
+    flex-direction: row; 
 }
 
 /* Sidebar styles */
