@@ -41,10 +41,11 @@
 
 /* Sidebar styles */
 .sidebar {
-    flex: 1; /* Take up 20% of the available space */
-    background-color: #f4f4f4; /* Light gray background color */
-    color: #333; /* Dark gray font color */
-    padding: 20px; /* Add padding for content within the sidebar */
+    flex: 1;
+    background-color: #f4f4f4; 
+    color: #333;
+    padding: 20px;
+    text-align: center;
 }
 
 /* Main content styles */
