@@ -10,6 +10,27 @@
     box-sizing: border-box;
     overflow: auto; /* or auto */
 }
+
+@font-face {
+    font-family: belleza;
+    src: url(Belleza.ttf);
+}
+
+@font-face {
+    font-family: ys;
+    src: url(YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: ms;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: ssc;
+    src: url(SofiaSansCondensed-VariableFont_wght.ttf);
+}
+
 a {
     text-decoration:none
 }
@@ -19,6 +40,10 @@ a:link {
 a:visited {
     color: black;
   }
+
+  .article-img{
+    max-width: 60%;
+}
 
 .header-container {
     background-color: #761818; /* Dark background color */
@@ -37,7 +62,9 @@ a:visited {
 .header-name {
     flex:3;
     text-align: left;
+    font-family: belleza;
 }
+
 .header-placeholder {
     flex:5;
 }
@@ -54,6 +81,7 @@ a:visited {
     color: #333;
     padding: 20px;
     text-align: center;
+    overflow: hidden;
 }
 
 .main {
@@ -61,7 +89,34 @@ a:visited {
     background-color: #fff; /* White background color */
     color: #333; /* Dark gray font color */
     padding: 20px; /* Add padding for content within the main section */
+    font-size: 1em;
+    margin-left: 50px;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
+
+.fl{
+    font-size: 8em;
+    font-family: ys;
+}
+
+.ctl{
+    font-size: 35px;
+    font-family: ms;
+}
+
+.nm{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: ssc;
+}
+
+.lp{
+    font-size: 15px;
+    font-family: ssc;
+}
+
 .main-img{
     max-width: 1194px;
 }
@@ -94,6 +149,10 @@ a:visited {
 .product-title{
     font-size: 24px;
     font-weight: bold;
+}
+.product-image{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .capesumpah{
     background-color: #eac9c9;
@@ -135,4 +194,43 @@ a:visited {
         padding: 10px;
         cursor: pointer;
     }
+    .article-img{
+        max-width: 100%;
+    }
+}
+
+.cus2{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.cus{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.cus div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.cus input, .cus textarea{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+.cus1 [type=submit], .cus1 [type=reset]{
+    width: 10%;
+    background-color: #ecebeb; 
+    font-size: 1em;    
+}
+
+.cus1 [type=submit]:active {
+    background-color: grey;
+}
+
+.cus1 [type=reset]:active {
+    background-color: grey;
 }
